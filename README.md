@@ -14,21 +14,21 @@ Implementation of Candidate Elimination algorithm in Java
    Version Space(VS)  
    
 ##Example
-  ###Input
-        4 7  
-		Sky Sunny Rainy Cloudy  
-		AirTemp Warm Cold  
-		Humidity Normal High  
-		Wind Strong Weak  
-		Water Warm Cool  
-		Forecast Same Change  
-		EnjoySport Yes No  
-		Sunny Warm Normal Strong Warm Same Yes  
-		Sunny Warm High Strong Warm Same Yes  
-		Rainy Cold High Strong Warm Change No  
-		Sunny Warm High Strong Cool Change Yes  
-  ###Output
-    S  : {<Sunny, Warm, ?, Strong, ?, ?>}
-	G :  {<Sunny, ?, ?, ?, ?, ?, ?>, <?, Warm, ?, ?, ?, ?>}
-   VS :{<Sunny, Warm, ?, ?, ?, ?>, <Sunny, ?, ?, Strong, ?, ?>, <?, Warm, ?, Strong, ?, ?>}  
+###Input
+		4 7
+		Sky Sunny Rainy Cloudy
+		AirTemp Warm Cold
+		Humidity Normal High
+		Wind Strong Weak
+		Water Warm Cool
+		Forecast Same Change
+		EnjoySport Yes No
+		Sunny Warm Normal Strong Warm Same Yes
+		Sunny Warm High Strong Warm Same Yes
+		Rainy Cold High Strong Warm Change No
+		Sunny Warm High Strong Cool Change Yes
+###Output
+	S : {<Sunny, Warm, ?, Strong, ?, ?>}
+	G : {<Sunny, ?, ?, ?, ?, ?, ?>, <?, Warm, ?, ?, ?, ?>}
+   VS : {<Sunny, Warm, ?, ?, ?, ?>, <Sunny, ?, ?, Strong, ?, ?>, <?, Warm, ?, Strong, ?, ?>}
 		
